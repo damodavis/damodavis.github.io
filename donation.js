@@ -4,7 +4,7 @@ var MOBILE_WIDTH = 600;
       : screen.width
       ? screen.width
       : 0;
-    var onlinePage = 'http://localhost:3000/tipping/';
+    var onlinePage = 'http://192.168.250.46:3000/tipping/';
     var styleDom = document.createElement('style');
     styleDom.innerHTML = `
       .ccwallet__button {
